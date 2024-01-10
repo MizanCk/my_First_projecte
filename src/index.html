@@ -13,7 +13,8 @@
   <nav class="w-11/12 m-auto lg:mb-[110px]">
         <div class="flex justify-between items-center p-2">
             <div class="w-1/2 ">
-                <div class="lg:w-1/5 w-24 ">
+                <div class="flex gap-3 lg:w-1/5 w-24 ">
+                    <i class="fa-solid fa-bars"></i>
                     <a href="#">
                         <img class="w-full" src="Group 1.png" alt="">
                     </a>
@@ -290,7 +291,7 @@
                 </tbody> 
                 </table> 
 
-                <div class="flex justify-start text-xs p-2 my-5 text-[#a4a4a4]">
+                <div class="md:hidden block flex justify-start text-xs p-2 my-5 text-[#a4a4a4] ">
                     <p >
                         *Price might be adjusted if required
                     </p>
@@ -368,10 +369,12 @@
                         </span>
                     </div>
                     <div class=" flex w-full gap-2 justify-between font-semibold">
-                        <div class="w-1/2 border-2 hover:border-[#008BC7]  p-4 mb-5 text-center justify-center flex">
-                            <input class="w-full focus:outline-none placeholder:text-black  text-center" type="text" placeholder="MM/YY">
+                        <div class="w-3/5 border-2 hover:border-[#008BC7]  p-4 mb-5 text-center justify-center flex gap-6">
+                            <input class="w-7 focus:outline-none placeholder:text-black  text-center " type="text" placeholder="MM">
+                            <span>/</span>
+                            <input class="w-9 focus:outline-none placeholder:text-black  text-center " type="text" placeholder="YY">
                         </div>
-                        <div class="w-1/2 border-2 hover:border-[#008BC7]  p-4 mb-5 font-semibold">
+                        <div class="w-2/5 border-2 hover:border-[#008BC7]  p-4 mb-5 font-semibold">
                             <input class="w-full focus:outline-none placeholder:text-black text-center" type="text" placeholder="CC">
                         </div>
                     </div>
@@ -417,7 +420,7 @@
                             </select>
                     </div>
     
-                  <div class="text-center p-4 rounded-md text-2xl font-medium text-white bg-[#008bc7]">
+                  <div class="text-center p-4 rounded-md text-2xl font-medium text-white bg-[#008bc7] cursor-pointer">
                         <h1>
                             Confirme
                         </h1>
