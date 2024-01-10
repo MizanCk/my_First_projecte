@@ -560,10 +560,6 @@ video {
   left: 1rem;
 }
 
-.left-\[180px\] {
-  left: 180px;
-}
-
 .right-0 {
   right: 0px;
 }
@@ -578,10 +574,6 @@ video {
 
 .top-3 {
   top: 0.75rem;
-}
-
-.top-\[-22px\] {
-  top: -22px;
 }
 
 .z-10 {
@@ -641,10 +633,6 @@ video {
   display: none;
 }
 
-.h-1 {
-  height: 0.25rem;
-}
-
 .w-1 {
   width: 0.25rem;
 }
@@ -669,12 +657,40 @@ video {
   width: 4rem;
 }
 
+.w-\[30\%\] {
+  width: 30%;
+}
+
 .w-\[95\%\] {
   width: 95%;
 }
 
 .w-full {
   width: 100%;
+}
+
+.w-\[103\%\] {
+  width: 103%;
+}
+
+.w-\[105\%\] {
+  width: 105%;
+}
+
+.w-\[110\%\] {
+  width: 110%;
+}
+
+.w-\[100\%\] {
+  width: 100%;
+}
+
+.w-\[98\%\] {
+  width: 98%;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .cursor-pointer {
@@ -762,6 +778,10 @@ video {
   border-bottom-width: 2px;
 }
 
+.border-b {
+  border-bottom-width: 1px;
+}
+
 .border-t-2 {
   border-top-width: 2px;
 }
@@ -771,9 +791,9 @@ video {
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
-.bg-\[\#F5F6F7\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(245 246 247 / var(--tw-bg-opacity));
+.border-gray-400 {
+  --tw-border-opacity: 1;
+  border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
 
 .bg-\[\#F8F8F8\] {
@@ -818,11 +838,6 @@ video {
 
 .bg-transparent {
   background-color: transparent;
-}
-
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .p-1 {
@@ -883,6 +898,10 @@ video {
   padding-top: 0.5rem;
 }
 
+.pt-4 {
+  padding-top: 1rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -909,6 +928,11 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-bold {
@@ -1015,6 +1039,10 @@ video {
     width: 100%;
   }
 
+  .sm\:w-\[105\%\] {
+    width: 105%;
+  }
+
   .sm\:gap-5 {
     gap: 1.25rem;
   }
@@ -1086,8 +1114,20 @@ video {
     width: 20%;
   }
 
+  .lg\:w-\[38\%\] {
+    width: 38%;
+  }
+
   .lg\:w-\[86\.333\%\] {
     width: 86.333%;
+  }
+
+  .lg\:w-\[35\%\] {
+    width: 35%;
+  }
+
+  .lg\:w-\[30\%\] {
+    width: 30%;
   }
 
   .lg\:gap-5 {
